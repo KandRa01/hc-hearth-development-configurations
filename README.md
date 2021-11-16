@@ -1,1 +1,2 @@
-# hc-hearth-development-configurations
+# Configurations for All Applications in Dev environments
+
