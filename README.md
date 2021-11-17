@@ -9,6 +9,19 @@
 - JPA Server
 - Process Engine (FHIR SERVER)
 
+## Summary of ports
+
+
+|App|Port|
+--- | --- 
+|Mock MBS Auth|8088|
+|Mock ESP KC/Socio|8712|
+|Payer Metadata|8080/8081|
+|InstructionSet Metadata|8082/8083|
+|Enrichment Keep Contact|8090/8091|
+|Enrichment Socio|8092/8093|
+|JPA-server|9090|
+|PE|9092/9093|
 
 ## MBS Mock Authorization
 
@@ -19,3 +32,10 @@
 |Branch|v1||
 |cmd|./start-cloudconfig.sh local mock-token-authz.yml 'C:/<path>/hc-common-mock-token-authz-server-config' mocktokens||
 
+## How to build dependencies
+  1. enter to repository you are looking dependencies.
+  2. switch to the tags tab and then inspect pom.xml file to see if this is the correct version you are looking for.
+  3. then run next command to create a new branch from the tag and compile the project.
+  
+     git checkout tags/**\<tag\>** -b **\<branch\>**
+  
