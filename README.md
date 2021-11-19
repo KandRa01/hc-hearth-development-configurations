@@ -39,3 +39,9 @@
   
      git checkout tags/**\<tag\>** -b **\<branch\>**
   
+## Troubleshooting Mock Authorization
+  - Errors in request with bad characters:
+  
+  {"timestamp":"2021-11-19T13:58:52.821Z","status":400,"error":"Bad Request","message":"Not readable data","path":"/mock/token/authz/v1/authorizeuser"}
+  
+ 
