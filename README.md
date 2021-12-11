@@ -46,3 +46,5 @@
   
   This means extra invisible characters has been added to the request. Please look no extra whitespaces or EOL characters are present.
  
+## Diagrams
+![image](https://user-images.githubusercontent.com/91071726/145665069-f0059369-d120-4afe-9f36-9e033b8bd890.png)
