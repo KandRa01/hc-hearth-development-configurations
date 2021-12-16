@@ -12,11 +12,11 @@
 
 
 ## Running the app
-1) please check if you have these repo's
+1) please check if you have these repo's (you can grab the urls of the repos from summary table above)
 - hc-common-mock-esp-ws
 - hc-common-mock-esp-ws-config
 
-2) then please compile with maven and try to run it with any of the next lines:
+2) then please compile with maven and try to run it with any of the next lines: (you can grab this from summary table above too)
 
 for keepcontact:
 - ./start-cloudconfig.sh local mock-esp-ws.yml 'C:/?/hc-common-mock-esp-ws-config-official' mockkeepcontactresults
