@@ -50,34 +50,35 @@ for socio:
 \</soapenv:Envelope>  
 
 ### Socio indicators - request sample 
-<soapenv:Envelope xmlns:soapenv="http://schemas.xmlsoap.org/soap/envelope/" xmlns:urn="urn:lnrisk:ws:wshealthcare:(internal)@ver=3.01">
-   <soapenv:Header/>
-   <soapenv:Body>
-      <urn:SocioeconomicIndicatorsRequest>
-         <urn:Options>
-            <urn:IncludeReadmissionScore>true</urn:IncludeReadmissionScore>
-            <urn:IncludeHealthAttributesV3>true</urn:IncludeHealthAttributesV3>
-            <urn:IncludeMedicationAdherenceScore>true</urn:IncludeMedicationAdherenceScore>
-            <urn:IncludeMotivationScore>true</urn:IncludeMotivationScore>
-            <urn:IncludeTotalCostRiskScore>true</urn:IncludeTotalCostRiskScore>
-         </urn:Options>
-         <urn:Member>
-            <urn:Name>
-               <urn:First>Jane</urn:First>
-               <urn:Last>Doe</urn:Last>
-            </urn:Name>
-            <urn:Address>
-               <urn:StreetAddress1>Mulholland Drv 3600</urn:StreetAddress1>
-               <urn:State>CA</urn:State>
-               <urn:City>Culver City</urn:City>
-               <urn:Zip5>90066</urn:Zip5>
-            </urn:Address>
-            <urn:Gender>f</urn:Gender>
-         </urn:Member>
-      </urn:SocioeconomicIndicatorsRequest>
-   </soapenv:Body>
-</soapenv:Envelope>
+> \<soapenv:Envelope xmlns:soapenv="http://schemas.xmlsoap.org/soap/envelope/" xmlns:urn="urn:lnrisk:ws:wshealthcare:(internal)@ver=3.01">  
+   \<soapenv:Header/>  
+   \<soapenv:Body>  
+      \<urn:SocioeconomicIndicatorsRequest>  
+         \<urn:Options>  
+            \<urn:IncludeReadmissionScore>true</urn:IncludeReadmissionScore>  
+            \<urn:IncludeHealthAttributesV3>true</urn:IncludeHealthAttributesV3>  
+            \<urn:IncludeMedicationAdherenceScore>true</urn:IncludeMedicationAdherenceScore>  
+            \<urn:IncludeMotivationScore>true</urn:IncludeMotivationScore>  
+            \<urn:IncludeTotalCostRiskScore>true</urn:IncludeTotalCostRiskScore>  
+         \</urn:Options>  
+         \<urn:Member>  
+            \<urn:Name>  
+               \<urn:First>Jane</urn:First>  
+               \<urn:Last>Doe</urn:Last>  
+            \</urn:Name>  
+            \<urn:Address>  
+               \<urn:StreetAddress1>Mulholland Drv 3600</urn:StreetAddress1>  
+               \<urn:State>CA</urn:State>  
+               \<urn:City>Culver City</urn:City>  
+               \<urn:Zip5>90066</urn:Zip5>  
+            \</urn:Address>  
+            \<urn:Gender>f</urn:Gender>  
+         \</urn:Member>  
+      \</urn:SocioeconomicIndicatorsRequest>  
+   \</soapenv:Body>  
+\</soapenv:Envelope>  
 
-## Troubleshooting Mock Authorization
-  ### .
+## Dependencies with other projects
+  ### hc-wshealthcare
+  ### api-starter
  
