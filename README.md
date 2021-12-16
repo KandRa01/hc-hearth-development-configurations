@@ -7,7 +7,7 @@
 - Metadata Payer
 - Metadata InstructionSet
 - JPA Server
-- Process Engine (FHIR SERVER)
+- Process Engine
 
 ## Summary for all apps
 
