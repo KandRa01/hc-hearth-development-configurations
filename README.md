@@ -23,15 +23,6 @@
 |JPA-server|9090| **1)** docker build -t hapi-jpa:1.0 . **2)** docker run -i --rm -p 9090:8080 --name plain-server hapi-jpa:1.0 |
 |PE|9092/9093| mvn spring-boot:run |
  
-## MBS Mock Authorization
-
-|  |  |
---- | --- 
-|Code Repository |[hc-common-mock-token-authz-server]( https://github.com/LexisNexis-RBA/hc-common-mock-token-authz-server) |
-|Config Repository |[hc-common-mock-token-authz-server-conf](https://github.com/LexisNexis-RBA/hc-common-mock-token-authz-server-conf) |
-|Branch|v1||
-|cmd|./start-cloudconfig.sh local mock-token-authz.yml 'C:/\<path\>/hc-common-mock-token-authz-server-config' mocktokens||
-
 ## How to build dependencies
   1. enter to repository you are looking dependencies.
   2. switch to the tags tab and then inspect pom.xml file to see if this is the correct version you are looking for.
@@ -39,12 +30,5 @@
   
      git checkout tags/**\<tag\>** -b **\<branch\>**
   
-## Troubleshooting Mock Authorization
-  ### Errors in request with bad characters:
-  
-  {"timestamp":"2021-11-19T13:58:52.821Z","status":400,"error":"Bad Request","message":"Not readable data","path":"/mock/token/authz/v1/authorizeuser"}
-  
-  This means extra invisible characters has been added to the request. Please look no extra whitespaces or EOL characters are present.
- 
 ## Diagrams
 ![image](https://user-images.githubusercontent.com/91071726/145665069-f0059369-d120-4afe-9f36-9e033b8bd890.png)
