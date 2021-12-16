@@ -1,7 +1,7 @@
 # Setting up & Running Apps 
 
-- MBS Mock Authorization 
-- SOAP ESP Mock Keepcontact
+- [MBS Mock Authorization](https://github.com/israelaltamira/hc-hearth-development-configurations/blob/main/auth-mock.md) 
+- [SOAP ESP Mock Keepcontact](https://github.com/israelaltamira/hc-hearth-development-configurations/blob/main/esp-mock.md)
 - Keep Contact Enrichment
 - Socio Indicators Enrichment
 - Metadata Payer
