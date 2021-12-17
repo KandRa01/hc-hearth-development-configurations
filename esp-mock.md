@@ -13,18 +13,19 @@
 
 ## Running the app
 1) please check if you have these repo's (you can grab the urls of the repos from summary table above)
-- hc-common-mock-esp-ws
-- hc-common-mock-esp-ws-config
+    - hc-common-mock-esp-ws
+    - hc-common-mock-esp-ws-config
 
-2) then please compile with maven and try to run it with any of the next lines: (you can grab this from summary table above too)
+2) then please compile with maven and try to run it with any of the next lines: (you can grab this from summary table above too)   
+    for keepcontact:
+    - ./start-cloudconfig.sh local mock-esp-ws.yml 'C:/?/hc-common-mock-esp-ws-config-official' mockkeepcontactresults
+    for socio:
+    - ./start-cloudconfig.sh local mock-esp-ws.yml 'C:/?/hc-common-mock-esp-ws-config-official' mocksocioindicators
 
-for keepcontact:
-- ./start-cloudconfig.sh local mock-esp-ws.yml 'C:/?/hc-common-mock-esp-ws-config-official' mockkeepcontactresults
+3) please download and install SoapUi so you can do some requests directly to the app. Do this through SoapUI becuase ESP mock App is a SOAP-webservice. SOAP Requests samples are in next section. Use next endpoints 
+    - for keepcontact http://localhost:8712/WsHealthcare/KeepContactReport
+    - for socio http://localhost:8712/WsHealthcare/SocioeconomicIndicators
 
-for socio:
-- ./start-cloudconfig.sh local mock-esp-ws.yml 'C:/?/hc-common-mock-esp-ws-config-official' mocksocioindicators
-
-3) please download and install SoapUi so you can do some requests directly to the app
 
 ### Keepcontact - request sample
 
