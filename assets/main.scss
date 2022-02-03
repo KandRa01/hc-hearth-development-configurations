@@ -3,11 +3,6 @@
 
 @import "minima";
 
-h1.page-heading {
-  color: #AA2233;
-}
-
-
 
 .ui-helper-hidden {
     display: none;
@@ -9110,7 +9105,7 @@ button.close {
 }
 
 body {
-    background-color: #efefef;
+    /* background-color: #efefef; */
     overflow-x: hidden;
 }
 
@@ -9317,7 +9312,7 @@ hr {
 }
 
 .container-footer {
-    padding: 0 15px 5px;
+    padding: 15px 15px 20px;
 }
 
 .container-footer-absolute {
