@@ -22,3 +22,26 @@
     </div>
   </header>
 </div>
+
+<nav class="navbar navbar-hcp" id="hcp-nav-bar">
+  <ul class="nav navbar-nav navbar-hcp-nav">
+    <li class="navbar-is-active ">
+      <a href="">Home</a>
+    </li>
+    <li class=" ">
+      <a href="">Master Audit</a>
+    </li>
+  </ul>
+  <form id="logout-form" class="pull-right" method="post" action="/adminportal/logout"><input type="hidden" name="_csrf"
+      value="ed2bb03f-d92e-4607-99bd-8f123012603f">
+    <button class="navbar-hcp-btn" type="button">Log Out</button>
+    <input type="hidden" id="timeOut" value="false">
+  </form>
+  <ul class="nav navbar-nav navbar-account-nav pull-right">
+    <li>
+      <a href=""><span class="glyphicon glyphicon-user mg-r-5"></span> Account</a>
+    </li>
+  </ul>
+  <div id="menu-data" data-session-idle-time="3600"></div>
+  <div id="app-data" data-context-path="/adminportal/"></div>
+</nav>
